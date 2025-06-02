@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Music Downloader</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      margin: 0;
+      padding: 40px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .music-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      margin: 20px;
+      width: 300px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .music-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .music-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    audio {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #00c9a7;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #00a98f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎶 CSS Music Downloader</h1>
+
+  <div class="music-box">
+    <div class="music-title">Lo-Fi Chill</div>
+    <audio controls>
+      <source src="music/lofi-chill.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <a class="download-btn" href="music/lofi-chill.mp3" download>Download</a>
+  </div>
+
+</body>
+</html>
+
+ lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Music Downloader</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      margin: 0;
+      padding: 40px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .music-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      margin: 20px;
+      width: 300px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .music-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .music-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    audio {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #00c9a7;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #00a98f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎶 CSS Music Downloader</h1>
+
+  <div class="music-box">
+    <div class="music-title">Lo-Fi Chill</div>
+    <audio controls>
+      <source src="music/lofi-chill.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <a class="download-btn" href="music/lofi-chill.mp3" download>Download</a>
+  </div>
+
+</body>
+</html>
+
+
